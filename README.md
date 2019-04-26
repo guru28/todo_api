@@ -1,24 +1,9 @@
-# README
+## Setup to Run
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+set database.yml
 
-Things you may want to cover:
+then bundle install
 
-* Ruby version
+rake db:create && rake db:migrate
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rails s 
